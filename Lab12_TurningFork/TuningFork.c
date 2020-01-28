@@ -47,10 +47,10 @@ void WaitForInterrupt(void);  // low power mode
 
 // input from PA3, output from PA2, SysTick interrupts
 void Sound_Init(void){ 
-	unsigned long volatile delay;
-	SYSCTL_RCGC2_R |= 0x01; 			// activate port A
-	delay = SYSCTL_RCGC2_R;
-	GPIO_PORTA_AMSEL_R &= ~0x04;      // no analog 
+  unsigned long volatile delay;
+  SYSCTL_RCGC2_R |= 0x01; 			// activate port A
+  delay = SYSCTL_RCGC2_R;
+  GPIO_PORTA_AMSEL_R &= ~0x04;      // no analog 
   GPIO_PORTA_PCTL_R &= ~0x0000FF00; // regular function, clear pin 2, 3
   GPIO_PORTA_DIR_R |= 0x04;     // make PA2 out, PA3 input
   GPIO_PORTA_DR8R_R |= 0x04;    // can drive up to 8mA out
