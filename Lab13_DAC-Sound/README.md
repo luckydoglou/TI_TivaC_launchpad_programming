@@ -2,5 +2,5 @@ This lab uses 4 switches act as piano note C (523Hz), D (587Hz), E (659Hz), G (7
 
 Date: 2/8/2020
 
-![lab13](https://github.com/luckydoglou/micro-controller_InputOutput/blob/master/images/lab13.jpg)
-![lab13-schematic](https://github.com/luckydoglou/micro-controller_InputOutput/blob/master/images/lab13-schematic.png) 
+![lab13](https://github.com/luckydoglou/micro-controller_InputOutput/blob/master/images/lab13.jpg) 
+![lab13_schematic](https://github.com/luckydoglou/micro-controller_InputOutput/blob/master/images/lab13_schematic.png) 
