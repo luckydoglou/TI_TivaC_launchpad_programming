@@ -2,5 +2,5 @@ This lab takes the analog values from slide potentiometer, and use ADC to read a
 
 Date: 2/22/2020
 
-![lab14](https://github.com/luckydoglou/micro-controller_InputOutput/blob/master/images/lab13.jpg) 
+![lab14](https://github.com/luckydoglou/TI_TivaC_launchpad_programming/blob/master/images/lab14.jpg) 
  
